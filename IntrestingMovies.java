@@ -15,19 +15,18 @@ public class IntrestingMovies
 				System.out.println("Connected Successfully!!!");
 				
 				 //Creating new Database....
-				/*
 				String query = "CREATE DATABASE MOVIES";
 				Statement stmt = con.createStatement();
 				stmt.executeUpdate(query);
 				System.out.println("DataBase is created!!!");
-				*/
 				
-				/*
+				
 				//Creating new Table...
 				String query1 = "CREATE TABLE Movie(MovieName Varchar(50),LeadActor VARCHAR(30),LeadActress VARCHAR(30),YearOfRelease Number(4),Director VARCHAR(30))";
 				Statement stmt1 = con.createStatement();
 				stmt1.executeUpdate(query1);
-				System.out.println("Table Created...!!!");*/
+				System.out.println("Table Created...!!!");
+				
 				int choice;
 				
 				
